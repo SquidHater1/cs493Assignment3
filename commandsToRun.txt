@@ -1,0 +1,4 @@
+docker container rm assignment-3-squidhater1-db-1
+docker container rm assignment-3-squidhater1-db-init-1
+docker container rm assignment-3-squidhater1-api-1
+docker compose up --build db --build db-init --build api
